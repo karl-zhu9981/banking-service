@@ -1,6 +1,6 @@
 # Banking Transactions API and Frontend
 
-This project is a banking transactions API built using Java Spring Boot on the backend, and a React frontend for interacting with the API. The system handles user accounts, transfers funds between accounts, and retrieves transaction history.
+This project is a banking transactions API built using Java Spring Boot on the backend, and a HTML frontend for interacting with the API. The system handles user accounts, transfers funds between accounts, and retrieves transaction history.
 
 ## Features
 
@@ -11,14 +11,12 @@ This project is a banking transactions API built using Java Spring Boot on the b
 ## Tech Stack
 
 - **Backend**: Java, Spring Boot
-- **Frontend**: React, Bootstrap
+- **Frontend**: HTML, CSS, JavaScript
 
 ## Requirements
 
-- **Java 17+**
-- **Node.js (v16.x or later)**
+- **Java 17**
 - **Maven**
-- **npm**
 
 ## Getting Started
 
@@ -40,7 +38,7 @@ This project is a banking transactions API built using Java Spring Boot on the b
 ## API Endpoints
 - **Create Account:** POST /api/createaccount. Payload: account holder name, and initial balance.
 - **Transfer Funds:** POST /api/transferfunds. Payload: sending account ID, receiving account ID, and amount of transfer.
-- **Get Transaction History:** GET /api//{accountID}/history. Payload: account ID.
+- **Get Transaction History:** GET /api/{accountID}/history. Payload: account ID.
 
 ## Frontend Features
 The frontend provides the following features:
